@@ -29,8 +29,8 @@ TARGET_GAPPS_ARCH := arm
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USE_OLD_SOUND_PICKER := true
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 PRODUCT_NAME := aosp_onyx
 PRODUCT_DEVICE := onyx
