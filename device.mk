@@ -306,3 +306,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=2m \
     dalvik.vm.heapmaxfree=8m
+    
+    
+# Telephony
+PRODUCT_PACKAGES += \
+   telephony-ext \
+   ims-ext-common \
+   qti-telephony-common
+
+ PRODUCT_BOOT_JARS += \
+  telephony-ext
