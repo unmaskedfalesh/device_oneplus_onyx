@@ -1,0 +1,2 @@
+allow vendor_init radio_data_file:file { open setattr write };
+
